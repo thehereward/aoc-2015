@@ -15,3 +15,8 @@ export function readFile(filename) {
     throw err;
   }
 }
+
+export const logEach = (/** @type {any} */ line) => {
+  console.log(line);
+  return line;
+};
