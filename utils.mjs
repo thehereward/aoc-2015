@@ -20,3 +20,5 @@ export const logEach = (/** @type {any} */ line) => {
   console.log(line);
   return line;
 };
+
+export const sum = (/** @type {number} */ a, /** @type {number} */ b) => a + b;

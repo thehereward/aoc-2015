@@ -1,13 +1,6 @@
 // @ts-check
+import { sum } from "../utils.mjs";
 
-/**
- * @param {number} n
- */
-function uint16(n) {
-  return n & 0xffff;
-}
-
-const sum = (/** @type {number} */ a, /** @type {number} */ b) => a + b;
 /**
  * @param {string[]} inputLines
  */
